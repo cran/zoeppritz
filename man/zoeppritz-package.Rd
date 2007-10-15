@@ -10,7 +10,7 @@ Calculate and plot scattering matrix coefficients for plane waves at interface.
 \tabular{ll}{
 Package: \tab zoeppritz\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
+Version: \tab 1.0-1\cr
 Date: \tab 2007-10-15\cr
 License: \tab GPL\cr
 }
