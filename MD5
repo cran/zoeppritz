@@ -1,0 +1,13 @@
+58ef7779ca861115b605d238dbf3c3f1 *DESCRIPTION
+78e3a88f875665cfbd477496fbecae0b *NAMESPACE
+e885f47620f1588eb3ad89657f20a2ea *R/piczoeppritz.R
+8ed6144dc6f4ed6fa58aec844bc814c0 *R/plotzoeppritz.R
+f61394f63c1e932e7756a45d5db00fb9 *R/pzoeppritz.R
+f181b3c677600b09af877199c5d94ecc *R/zoeppritz.R
+36d81725f391c96558c4d6afbd875af0 *demo/00Index
+b46386503a0e40a164b60de34fb9c180 *demo/ZOEP.R
+60fbe695913f1b91f4d449a50d823086 *man/piczoeppritz.Rd
+ab7ae631c74658c6d4c39865645f7664 *man/plotzoeppritz.Rd
+70e3b850284c6f90ffec947c566f2bbc *man/pzoeppritz.Rd
+47b4e03dab21015594e9db8f8d2ebfbe *man/zoeppritz-package.Rd
+5a82bba7d4cffc19b639e57551986e63 *man/zoeppritz.Rd
