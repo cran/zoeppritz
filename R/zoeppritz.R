@@ -120,10 +120,10 @@ function(icoef, vp1, vp2, vs1, vs2, rho1, rho2, incw)
     y = rho1+(qa*thetasq);
     z = rho2-rho1-(qa*thetasq) ;
 
-    p1 = complex(real=a1, imag=b1);
-    p2 = complex(real=a2, imag=b2);
-    p3 = complex(real=a3, imag=b3);
-    p4 = complex(real=a4, imag=b4);
+    p1 = complex(real=a1, imaginary=b1);
+    p2 = complex(real=a2, imaginary=b2);
+    p3 = complex(real=a3, imaginary=b3);
+    p4 = complex(real=a4, imaginary=b4);
 
 
 

@@ -33,7 +33,7 @@ function(A, zoepcols = c("red", "green" , "blue", "purple"), zoeplty=c(1,1,1,1) 
     
     leg1 = bquote(alpha[1] == .(alpha1))
     
-    vskip = strheight(leg1, u = "user", cex = 1)*1.4
+    vskip = strheight(leg1, units = "user", cex = 1)*1.4
     
     text(u[1], u[4] -vskip, leg1, pos=4)
     leg1 = bquote(beta[1] == .(beta1))
