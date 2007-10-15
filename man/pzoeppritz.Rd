@@ -1,6 +1,6 @@
 \name{pzoeppritz}
 \alias{pzoeppritz}
-%- Also NEED an '\alias' for EACH other topic documented here.
+
 \title{Plot Scattering (Zoeppritz) Coefficients}
 \description{
  Calculate and plot the P and S-wave scattering amplitudes for a plane
@@ -9,7 +9,7 @@
 \usage{
 pzoeppritz(chtype = "Amplitude", alpha1, alpha2, beta1, beta2, rho1, rho2, chincw = "P", choutkind = "ALL")
 }
-%- maybe also 'usage' for other objects documented here.
+
 \arguments{
   \item{chtype}{character, type of output, one of: Amplitude, Potential,
     Energy}
@@ -37,12 +37,12 @@ pzoeppritz(chtype = "Amplitude", alpha1, alpha2, beta1, beta2, rho1, rho2, chinc
   \item{alphacrit}{critical angle}
 }
 \references{
- Young,~G.B.,~ Braile,~L. W. 1976. A computer program for the application
+ Young,~G.B., Braile, L. W. 1976. A computer program for the application
   of Zoeppritz's amplitude equations and Knott's energy equations,
-  {\em Bulletin of the Seismological Society of America}, vol.66,
+  \emph{Bulletin of the Seismological Society of America}, vol.66,
   no.6,1881-1885.
 
-  K.~Aki and P.~G. Richards.{\em Quantitative seismology}.
+  K. Aki and P. G. Richards. \emph{Quantitative seismology}.
   University Science Books, Sausalito, Calif., 2nd edition, 2002.
 }
 \author{Jonathan M. Lees<jonathan.lees@unc.edu>}

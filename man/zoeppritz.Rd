@@ -35,12 +35,12 @@ zoeppritz(icoef, vp1, vp2, vs1, vs2, rho1, rho2, incw)
   \item{icoef}{integer, from input parameter }
 }
 \references{
-  Young,~G.B.,~ Braile,~L. W. 1976. A computer program for the application
+  Young, G.B., Braile, L. W. 1976. A computer program for the application
   of Zoeppritz's amplitude equations and Knott's energy equations,
-  {\em Bulletin of the Seismological Society of America}, vol.66,
+  \emph{ Bulletin of the Seismological Society of America}, vol.66,
   no.6,1881-1885.
 
-  K.~Aki and P.~G. Richards.{\em Quantitative seismology}.
+  K. Aki and P.G. Richards.\emph{Quantitative seismology}.
   University Science Books, Sausalito, Calif., 2nd edition, 2002.
  }
 \author{Jonathan M. Lees<jonathan.lees@unc.edu>}
