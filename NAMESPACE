@@ -1,2 +1,6 @@
 # Export all names
 exportPattern(".")
+importFrom("grDevices", "grey")
+importFrom("graphics", "abline", "arrows", "legend", "lines",
+             "locator", "par", "plot", "rect", "segments", "strheight",
+             "text", "title")
