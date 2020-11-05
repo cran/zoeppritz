@@ -24,6 +24,8 @@ function(icoef, vp1, vp2, vs1, vs2, rho1, rho2, incw)
     ##X## #   plotzpr( "Amplitude" , alpha1, alpha2, beta1, beta2, rho1 ,rho2, "SV", "S");
 
 
+      input.model = list(vp1=vp1, vp2=vp2, vs1=vs1, vs2=vs2, rho1= rho1, rho2=rho2)
+
     if(incw==1)
       {
         vel = vp1;
@@ -210,9 +212,10 @@ function(icoef, vp1, vp2, vs1, vs2, rho1, rho2, incw)
         aflag = Mod(rra[, j ])>0.0000001;
         ang[aflag, j ]= atan2(ria[aflag,  j ],rra[aflag, j ]);
         ang[!aflag , j ]= 0.0;
+
         
         
       }
-    return(list(angle=angle, rmat=rmat, rra=rra, ria=ria, ang=ang, incw=incw, icoef=icoef))
+    return(list(angle=angle, rmat=rmat, rra=rra, ria=ria, ang=ang, incw=incw, icoef=icoef, input.model=input.model ))
   }
 

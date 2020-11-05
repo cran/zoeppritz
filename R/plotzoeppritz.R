@@ -5,7 +5,7 @@ function(A, zoepcols = c("red", "green" , "blue", "purple"), zoeplty=c(1,1,1,1) 
     if(missing(zoepcols) ) zoepcols = c("red", "green" , "blue", "purple")
     if(missing(zoeplty) ) zoeplty=c(1,1,1,1)
 
-    #########  A = list(angle=angle, rmat=rmat, rra=rra, ria=ria, ang=ang)
+    #########  A = list(angle=angle, rmat=rmat, rra=rra, ria=ria, ang=ang, input.model)
     plot(range(A$angle), range(A$rmat, na.rm=TRUE), col=4, type="n", xlab="Angle of Incidence",
          ylab=A$chtype ) ;
 
@@ -29,6 +29,12 @@ function(A, zoepcols = c("red", "green" , "blue", "purple"), zoeplty=c(1,1,1,1) 
    ##                       paste('Layer 1:', bquote(alpha[1]), '=',alpha1, bquote(beta[1]), '=',beta1, bquote(rho[1]), '=', rho1),
     ##                      paste('Layer 2: Vp=',alpha2,' Vs=',beta2, ' Rho=', rho2)))
 
+    alpha1 = A$input.model$vp1
+    alpha2 = A$input.model$vp2   
+    beta1 =  A$input.model$vs1
+    beta2 =  A$input.model$vs2
+    rho1  =  A$input.model$rho1
+    rho2  =  A$input.model$rho2
     
     
     leg1 = bquote(alpha[1] == .(alpha1))
