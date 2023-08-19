@@ -6,16 +6,7 @@
 \description{
 Calculate and plot scattering matrix coefficients for plane waves at interface.
 }
-\details{
-\tabular{ll}{
-Package: \tab zoeppritz\cr
-Type: \tab Package\cr
-Version: \tab 1.0-2\cr
-Date: \tab 2007-10-15\cr
-License: \tab GPL\cr
-}
 
-}
 \author{Jonathan M. Lees<jonathan.lees@unc.edu>
 Maintainer: Jonathan M. Lees<jonathan.lees@unc.edu>
 }
